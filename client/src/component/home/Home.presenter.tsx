@@ -43,6 +43,145 @@ export default function HomePageUI() {
                     </div>
                 </div>
             </div>
+            <div className={styles.sectionFeatures}>
+                <div className={styles.sectionRow}>
+                    <div className={styles.col_1_of_4}>
+                        <div className={styles.featureBox}>
+                            <i className={styles.featureBoxIcon}></i>
+                            <h3 className={`${styles.headingTertiary} ${styles.uMarginBottomSmall}`}>Explore the world</h3>
+                            <p className={styles.featureBoxText}>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam ex nostrum voluptatem nesciunt cumque?
+                            </p>
+                        </div>
+                    </div>
+                    <div className={styles.col_1_of_4}>
+                        <div className={styles.featureBox}>
+                            <i className={styles.featureBoxIcon}></i>
+                            <h3 className={`${styles.headingTertiary} ${styles.uMarginBottomSmall}`}>Explore the world</h3>
+                            <p className={styles.featureBoxText}>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam ex nostrum voluptatem nesciunt cumque?
+                            </p>
+                        </div>
+                    </div>
+                    <div className={styles.col_1_of_4}>
+                        <div className={styles.featureBox}>
+                            <i className={styles.featureBoxIcon}></i>
+                            <h3 className={`${styles.headingTertiary} ${styles.uMarginBottomSmall}`}>Explore the world</h3>
+                            <p className={styles.featureBoxText}>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam ex nostrum voluptatem nesciunt cumque?
+                            </p>
+                        </div>
+                    </div>
+                    <div className={styles.col_1_of_4}>
+                        <div className={styles.featureBox}>
+                            <i className={styles.featureBoxIcon}></i>
+                            <h3 className={`${styles.headingTertiary} ${styles.uMarginBottomSmall}`}>Explore the world</h3>
+                            <p className={styles.featureBoxText}>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam ex nostrum voluptatem nesciunt cumque?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className={styles.sectionTours}>
+                <div className={`${styles.uCenterText} ${styles.uMarginBottomBig}`}>
+                    <h2 className={styles.headingSecondary}>
+                        Most popular tours
+                    </h2>
+                </div>
+                <div className={styles.toursRow}>
+                    <div className={styles.card}>
+                        <div className={`${styles.cardSideFront} ${styles.cardSide}`}>
+                            <div className={`${styles.cardPicture} ${styles.cardPicture1}`}>
+                                        &nbsp;
+                            </div>
+                            <h4 className={styles.cardHeading}>
+                                <span className={`${styles.cardHeadingSpan} ${styles.cardHeadingSpan1}`}>
+                                    The Sea Explorer
+                                </span>
+                            </h4>
+                            <div className={styles.cardDetails}>
+                                <ul>
+                                    <li>3 day tours</li>
+                                    <li>Up to 30 people</li>
+                                    <li>2 tour guides</li>
+                                    <li>Sleep in cozy hotels</li>
+                                    <li>Difficulty: easy</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className={`${styles.cardSide} ${styles.cardSideBack} ${styles.cardSideBack1}`}>
+                            <div className={styles.cardCta}>
+                                <div className={styles.cardPriceBox}>
+                                    <p className={styles.cardPriceOnly}>Only</p>
+                                    <p className={styles.cardPriceValue}>$297</p>
+                                </div>
+                                <a href="#popup" className={`${styles.btn} ${styles.btnWhite}`}>Book now!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={styles.card}>
+                        <div className={`${styles.cardSideFront} ${styles.cardSide}`}>
+                            <div className={`${styles.cardPicture} ${styles.cardPicture2}`}>
+                                        &nbsp;
+                            </div>
+                            <h4 className={styles.cardHeading}>
+                                <span className={`${styles.cardHeadingSpan} ${styles.cardHeadingSpan2}`}>
+                                    The Sea Explorer
+                                </span>
+                            </h4>
+                            <div className={styles.cardDetails}>
+                                <ul>
+                                    <li>3 day tours</li>
+                                    <li>Up to 30 people</li>
+                                    <li>2 tour guides</li>
+                                    <li>Sleep in cozy hotels</li>
+                                    <li>Difficulty: easy</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className={`${styles.cardSide} ${styles.cardSideBack} ${styles.cardSideBack2}`}>
+                            <div className={styles.cardCta}>
+                                <div className={styles.cardPriceBox}>
+                                    <p className={styles.cardPriceOnly}>Only</p>
+                                    <p className={styles.cardPriceValue}>$297</p>
+                                </div>
+                                <a href="#popup" className={`${styles.btn} ${styles.btnWhite}`}>Book now!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={styles.card}>
+                        <div className={`${styles.cardSideFront} ${styles.cardSide}`}>
+                            <div className={`${styles.cardPicture} ${styles.cardPicture3}`}>
+                                        &nbsp;
+                            </div>
+                            <h4 className={styles.cardHeading}>
+                                <span className={`${styles.cardHeadingSpan} ${styles.cardHeadingSpan3}`}>
+                                    The Sea Explorer
+                                </span>
+                            </h4>
+                            <div className={styles.cardDetails}>
+                                <ul>
+                                    <li>3 day tours</li>
+                                    <li>Up to 30 people</li>
+                                    <li>2 tour guides</li>
+                                    <li>Sleep in cozy hotels</li>
+                                    <li>Difficulty: easy</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className={`${styles.cardSide} ${styles.cardSideBack} ${styles.cardSideBack3}`}>
+                            <div className={styles.cardCta}>
+                                <div className={styles.cardPriceBox}>
+                                    <p className={styles.cardPriceOnly}>Only</p>
+                                    <p className={styles.cardPriceValue}>$297</p>
+                                </div>
+                                <a href="#popup" className={`${styles.btn} ${styles.btnWhite}`}>Book now!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
